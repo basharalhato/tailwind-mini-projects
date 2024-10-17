@@ -1,0 +1,15 @@
+{
+  "name": "mini-projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/styles.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/styles.css --watch"
+  },
+  "author": "Bashar Alhato",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
